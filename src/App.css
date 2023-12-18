@@ -1,0 +1,128 @@
+.app-style{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-section{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.todo-input-box{
+  padding: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.todo-input-field{
+  width: 100%;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 20px;
+  color: gray;
+  font-size: 24px;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.add-button{
+  width: 100%;
+  box-sizing: border-box;
+  height: 45px;
+  border: 1px solid rgb(239, 236, 236);
+  background-color: rgba(12, 133, 163, 0.898);
+  color: aliceblue;
+  border-radius: 5px;
+  margin-top: 35px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.todo-box-divs{
+  width: 100%;
+}
+
+.todo-buttons{
+  height: 45px;
+  width: 30%;
+  border: 1px solid rgb(239, 236, 236);
+  background-color: rgba(12, 133, 163, 0.898);
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.display-div{
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete-buttons{
+  height: 45px;
+  width: 48%;
+  border: 1px solid rgb(239, 236, 236);
+  background-color: rgba(194, 10, 19, 0.898);
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.todo-item-div{
+  height: 60px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  color: gray;
+}
+
+.feature-style{
+  height: 25px;
+  border: 1px solid rgb(239, 236, 236);
+  background-color: rgba(12, 133, 163, 0.898);
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 400;
+
+}
+
+.inner-btns{
+  align-items: center;
+  width: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-style{
+  height: 25px;
+  width: 20px;
+}
+
+.edit-input{
+  height: 30px;
+  width: 500px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-size: 20px;
+  font-weight: 400;
+  color: gray;
+}
+
+.checked-style{
+  text-decoration: line-through;
+  color: red;
+}
